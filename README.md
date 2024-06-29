@@ -6,7 +6,7 @@ A Python script that convert a picture to bin file for Sega Master System plus a
 ## Setups
 1. If you don't have PIL, **open the command prompt and install it with PIP**
 2. Open the Rom file with **YY-CHR, choose the pattern FC/SNES x16 and locate the sprites to have a look on how the sprites are placed**. The sprite sheet should have **a width of 32 and the height a divisible of 24.**
-3. To be color accurate, **use Master_Sytem_File.png as palette.**
+3. To be color accurate, **use Master_Sytem_Palette.png as palette.**
 4. I don't know how to find the color in the rom but if you manage to do it, **use the hex-to-palette-SMS script to generate the palette picture. Its bin lenght has to be 16**
 
 ## Steps
