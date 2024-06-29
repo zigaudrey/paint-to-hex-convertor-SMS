@@ -20,6 +20,8 @@ For now, this repertory is an one-way convertor and it is published as a 3-quart
 
 YY-CHR says that Master System and Game Gear share the same sprite format (except the tiles placement) but the different palette format drive me to make it Master System only.
 
+The palette picture come from this [SegaRetro Wiki Page](https://segaretro.org/Palette)
+
 ## Similar Tools
 + [Paint - Hex Convertor (Sega Megadrive)](https://github.com/zigaudrey/paint-hex-convertor-MSX)
 + [Paint - Hex Convertor (Gameboy Advance / DS 16-Colors)](https://github.com/zigaudrey/paint-hex-convertor-GBA-DS)
