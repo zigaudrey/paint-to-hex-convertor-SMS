@@ -1,6 +1,6 @@
 ![Image to Bin Convertor - Master System BANNER](https://github.com/zigaudrey/paint-to-hex-convertor-SMS/assets/129554573/1d856ba1-4b54-4b9e-a5a6-209c6f6f5861)
 
-# Paint to Hex Convertor Scripts (Sega Master System)
+# Paint to Hex Convertor Script (Sega Master System)
 A Python script that convert a picture to bin file for Sega Master System plus a script that convert palette data into a picture
 
 ## Setups
