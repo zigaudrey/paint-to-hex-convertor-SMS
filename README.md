@@ -13,6 +13,11 @@ A Python script that convert a picture to bin file for Sega Master System plus a
 5. **Choose the palette picture and the sprite sheet**
 6. **Two bin files will be created**, ready to be used in Rom Hacking
 
+## Result
+
+![Meta-Knight-in-Taz-Mania-SMS-Gif-WIP](https://github.com/zigaudrey/paint-to-hex-convertor-SMS/assets/129554573/b21eb301-a058-4686-869c-1c5f9fe98c02)
+Meta Knight in Taz-Mania SMS (Work in Progress)
+
 ## Author's Note
 I was excited to work with binaries on Python until I end up creating a script for the GameBoy sprite format. Days later, I realize that the MasterSystem sprite format is 4BPP, I just need to add 2 binary rows and it worked! Thus this become my first Python script goes on binary instead on Hexadecimal.
 
