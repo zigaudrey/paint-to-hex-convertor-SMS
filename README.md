@@ -1,15 +1,13 @@
 ![Image to Bin Convertor - Master System BANNER](https://github.com/zigaudrey/paint-to-hex-convertor-SMS/assets/129554573/1d856ba1-4b54-4b9e-a5a6-209c6f6f5861)
 
 # Paint to Hex Convertor Script (Sega Master System)
-A Python script that convert a picture to bin file for Sega Master System plus a script that convert palette data into a picture
+A Python script that convert a picture to bin file for Sega Master System sprite editing plus a script that convert palette data into a picture
 
-## Setups
+## Steps
 1. If you don't have PIL, **open the command prompt and install it with PIP**
 2. Open the Rom file with **[YY-CHR](https://www.romhacking.net/utilities/119/), choose the pattern FC/SNES x16 and locate the sprites to have a look on how they are placed**. The sprite sheet should have **the width a divisible of 24 and the height of 32 (divisible of 16)**
 3. To be color accurate, **use Master_Sytem_Palette.png as palette.**
 4. Use [MEKA](https://www.smspower.org/meka/) to get the color palette, **use the hex-to-palette-SMS script to generate the palette picture. Its bin lenght has to be 16**
-
-## Steps
 5. **Choose the palette picture and the sprite sheet**
 6. **Two bin files will be created**, ready to be used in Rom Hacking
 
