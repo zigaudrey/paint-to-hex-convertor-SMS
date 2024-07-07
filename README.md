@@ -14,7 +14,7 @@ A Python script that convert a picture to bin file for Sega Master System sprite
 
 ## Result
 
-![Meta-Knight-in-Taz-Mania-SMS-Gif-WIP-2](https://github.com/zigaudrey/paint-to-hex-convertor-SMS/assets/129554573/0b1d3512-3c28-41b3-8157-a500cf51523f)
+![Meta-Knight-in-Taz-Mania-SMS-Gif-WIP-3](https://github.com/zigaudrey/paint-to-hex-convertor-SMS/assets/129554573/c630de1c-983d-44a1-9871-e71351c89717)
 Meta Knight in Taz-Mania SMS (Work in Progress)
 
 ## Author's Note
