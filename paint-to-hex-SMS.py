@@ -37,7 +37,7 @@ if len(pal_file)!=0:
                 openpic = Image.open(targ_file).convert("RGB")
                 w,h = openpic.size
 
-                if w % 24 == 0 and h % 32 == 0:
+                if w % 8 == 0 and h % 16 == 0:
 
                     n=len(targ_file)-1
                     while n!= 0 and targ_file[n] != '.':
@@ -47,9 +47,9 @@ if len(pal_file)!=0:
                         new_bin_file = targ_file[n] + new_bin_file
                         n -= 1
 
-                    for xw in range (0, w, 24):
+                    for xw in range (0, w, 8):
                         for yh in range(0, h, 16):
-                            for x in range (0, 24, 8):
+                            for x in range (0, 8, 8):
                                 for y in range(0, 16, 8):
                                     for iz in range(0, 8):
                                         br1, br2, br3, br4 = "", "", "", ""
@@ -79,10 +79,10 @@ if len(pal_file)!=0:
 
                 else:
 
-                    if w % 24 == 0:
-                        print("Image Width isn't a divisible of 24")
+                    if w % 8 == 0:
+                        print("Image Width isn't a divisible of 8")
                     else:
-                        print("Image Height isn't a divisible of 32")
+                        print("Image Height isn't a divisible of 16")
         else:
              print("Palette File Empty")   
 
