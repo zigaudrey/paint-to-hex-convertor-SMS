@@ -47,9 +47,23 @@ if len(pal_file)!=0:
                         new_bin_file = targ_file[n] + new_bin_file
                         n -= 1
 
-                    for xw in range (0, w, 8):
+                    b1, b2 = 0 , 0
+
+                    sprite_sheet = ""
+
+                    while sprite_sheet == "":
+                        sprite_sheet = input("If this a sprite sheet? (y/n)").lower()
+                        if sprite_sheet != "y" and sprite_sheet != "n":
+                            sprite_sheet = ""
+
+                    if sprite_sheet == "y":
+                        wA = 24
+                    else:
+                        wA = 8
+
+                    for xw in range (0, w, wA):
                         for yh in range(0, h, 16):
-                            for x in range (0, 8, 8):
+                            for x in range (0, wA, 8):
                                 for y in range(0, 16, 8):
                                     for iz in range(0, 8):
                                         br1, br2, br3, br4 = "", "", "", ""
