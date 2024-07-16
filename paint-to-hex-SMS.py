@@ -8,6 +8,17 @@ pal_file = ""
 pal_file = filedialog.askopenfilename(initialdir=os.getcwd(), title="Select Palette Image", filetype=(('PNG file', '*.png'),('BMP file', '*.bmp'),("ALL file",'*.*')))
 
 if len(pal_file)!=0:
+
+    short_pal_name = ""
+
+    n=len(pal_file)-1
+    while n!= 0 and pal_file[n] != '.':
+        n -= 1
+    n -= 1
+    while n!= 0 and pal_file[n] != '/':
+        short_pal_name = pal_file[n] + short_pal_name
+        n -= 1
+    
     list_colors = []
     openpal = Image.open(pal_file).convert("RGB")
     wp,hp = openpal.size
@@ -81,7 +92,7 @@ if len(pal_file)!=0:
                                         br4 = struct.pack("B",int(br4 , 2))
                                         bit_paint += br1 + br2 + br3 + br4
 
-                    out_file = open(new_bin_file + " SMS Pal.bin", "wb+")
+                    out_file = open(short_pal_name + " SMS Pal.bin", "wb+")
                     out_file.write(BGR_pal)
                     out_file.close()
                                     
